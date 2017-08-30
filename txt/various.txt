@@ -1,0 +1,9 @@
+Teal Color Swatch
+
+455866 -mid grey
+15a387 -darker bahama water green
+17c5ac -bahama water green
+33414a -header bg
+fbfbfb -almost white
+
+93bddc -light blue
