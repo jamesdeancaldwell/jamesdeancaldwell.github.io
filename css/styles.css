@@ -286,6 +286,20 @@ footer {
 	.master-cta {
 		top: 70px;
 	}
+
+	.copy-wrapper section {
+		width: 100%;
+	}
+
+	.copy-wrapper section p {
+		position: relative;
+		width: 90%;
+		margin: 0 auto 20px auto;
+	}
+
+	.copy-wrapper .copy-pic {
+		width: 100%;
+	}
 }
 
 
