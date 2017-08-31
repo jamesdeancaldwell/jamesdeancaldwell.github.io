@@ -19,7 +19,7 @@
             showinfo: 0,        // Hide the video title
             modestbranding: 1,  // Hide the Youtube Logo
             loop: 1,            // Run the video in a loop
-            fs: 1,              // Hide the full screen button
+            fs: 1,             // Hide the full screen button
             cc_load_policy: 0, // Hide closed captions
             iv_load_policy: 3,  // Hide the Video Annotations
             autohide: 0         // Hide video controls when playing
@@ -54,3 +54,18 @@
       function stopVideo() {
         player.stopVideo();
       }
+
+/* Makes The video full size */
+/*
+      $(document).ready(function() {
+        $(function(){
+          $('#player').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+          $(window).resize(function(){
+          $('#player').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+            });
+          });
+      });
+
+*/
+
