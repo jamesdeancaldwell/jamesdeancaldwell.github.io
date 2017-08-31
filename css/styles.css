@@ -66,6 +66,15 @@
 	top: -140px;
 }
 
+.copy-wrapper .copy-pic {
+	position: relative;
+	width: 33.1%;
+	height: 300px;
+	display: inline-table;
+	vertical-align: top;
+	border: solid 1px #999999;
+}
+
 .copy-wrapper-1 {
 	position: relative;
 	width: 100%;
