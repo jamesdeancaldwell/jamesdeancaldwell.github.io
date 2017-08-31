@@ -184,6 +184,9 @@ footer {
 	top: -16px;
 }
 
+
+/*Media Queries*/
+
 @media only screen and (max-width: 1200px) {
 	.main-header {
 		top: 170px;
@@ -194,7 +197,21 @@ footer {
 	}
 }
 
-/*Mobile Layouts*/
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
 
 @media only screen and (min-width: 1210px) {
 	.cd-main-content {
