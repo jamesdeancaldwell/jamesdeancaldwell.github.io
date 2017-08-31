@@ -59,6 +59,13 @@
 	background-color: #fbfbfb;
 }
 
+.copy-wrapper section {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	top: -140px;
+}
+
 .copy-wrapper-1 {
 	position: relative;
 	width: 100%;
@@ -255,7 +262,7 @@ footer {
 	}
 
 	.main-header h1 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	.main-header h3 {
