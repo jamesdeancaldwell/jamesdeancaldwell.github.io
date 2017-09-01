@@ -25,7 +25,7 @@
 }
 
 .cd-main-content a:hover {
-	color:rgba(204,204,204,0.5);
+	color:rgba(251,251,251,0.5);
 }
 
 .master-cta {
@@ -48,6 +48,32 @@
 }
 
 .master-cta h4 {
+	position: relative;
+	top: -2px;
+}
+
+.basic-cta a {
+	color: #fbfbfb;
+}
+
+.basic-cta {
+	position: relative;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	top: 20px;
+	text-align: center;
+	z-index: 2;
+	background-color: #17c5ac;
+	border: solid 2px #17c5ac;
+}
+
+.basic-cta:hover {
+	color:rgba(251,251,251,0.5);
+	opacity: 0.7;
+}
+
+.basic-cta h4 {
 	position: relative;
 	top: -2px;
 }
@@ -89,25 +115,40 @@
 .copy-wrapper-2 {
 	position: relative;
 	width: 100%;
-	height: 200px;
 	background-color: #455866;
 	border-top: solid 1px #fbfbfb;
 	border-bottom: solid 1px #33414a;
+	padding: 30px 0px 50px 0px;
+}
+
+.copy-wrapper-2 p {
+	position: relative;
+	width: 90%;
+	margin: 0px auto 20px auto;
+	color: #fbfbfb;
+}
+
+.footer-logo {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: 20px auto 0px auto;
 }
 
 .social-media {
 	position: relative;
-	top: 35%;
-	width: 170px;
+	top: 10px;
+	width: 150px;
 	height: 50px;
 	margin: 0 auto;
 	text-align: center;
+	padding-top: 7px;
 }
 
 .social-icons {
 	position: relative;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	display: inline-table;
 	vertical-align: top;
 }
@@ -155,25 +196,27 @@
   opacity: 1;
 }
 
+.footer-copy-wrapper {
+	position: relative;
+	width: 100%;
+	border-top: solid 1px #fbfbfb;
+	border-bottom: solid 1px #33414a;
+	padding: 30px 0px 50px 0px;
+	background-color: #33414a;
+}
+
 footer {
 	position: relative;
 	width: 90%;
 	margin: 0 auto 50px auto;
-	padding-top: 10px;
+	padding-top: 0px;
 	/*border-top: solid 1px #33414a;*/
-}
-
-.footer-logo {
-	position: relative;
-	width: 50px;
-	height: 50px;
-	float: left;
 }
 
 .copyright p {
 	position: relative;
 	width: 100%;
-	top: -10px;
+	top: -5px;
 	text-align: center;
 	font-size: 11px;
 	color: #999999;
