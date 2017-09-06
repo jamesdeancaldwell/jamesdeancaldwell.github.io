@@ -41,6 +41,19 @@
         }
       })
     </script>
+    <script type="text/javascript">
+    function mySubmit(){ 
+      document.getElementById('.contact-form').onsubmit=function()
+      {
+          if(!this.email.value)
+       {
+              alert("You must enter a valid email address")
+               return false
+          }
+          return true
+      }
+    };
+  </script>
 
   </head>
 
