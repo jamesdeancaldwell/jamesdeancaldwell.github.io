@@ -19,6 +19,15 @@
 	z-index: 2;
 }
 
+.body-header {
+	color: #fbfbfb !important;
+}
+
+#img-bg {
+	position: relative;
+	top: 150px;
+}
+
 .cd-main-content a {
 	color: #33414a;
 	text-decoration: none;
@@ -76,6 +85,54 @@
 .basic-cta h4 {
 	position: relative;
 	top: -2px;
+}
+
+.form-wrapper {
+	position: relative;
+	width: 55%;
+	margin: 0 auto;
+	border: solid 1px #999999;
+	background-color: #999999;
+	padding: 30px;
+	color: #ffffff;
+
+}
+
+.form-wrapper h1 {
+	position: relative;
+	margin-top: -5px;
+	text-align: center;
+}
+
+.form-wrapper p {
+	text-align: center;
+}
+
+input#name {
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+
+input#email {
+	width: 100%;
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+
+textarea#message {
+	width: 100%;
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+
+input#contact-btn {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 10px 0;
+	background-color: #17c5ac;
+	border: none;
+	color: #ffffff;
 }
 
 .copy-wrapper {
