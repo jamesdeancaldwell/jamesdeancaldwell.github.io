@@ -56,7 +56,7 @@ if(isset($_POST['email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     echo "<script type=\"text/javascript\">window.alert('Thank you, your message has been successfully sent.');
-    window.location.href = 'http://jamesdeancaldwell.github.io/index.php';</script>";
+    window.location.href = 'http://jamesdeancaldwell.github.io/index.html';</script>";
   }
 ?>
 
