@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
       if (! (isset($_POST['fullname']) && strlen($_POST['fullname']))) 
         {
         echo "<script type=\"text/javascript\">window.alert('You must enter a vaild email address');
-        window.location.href = '../html/contact.html#form-copy';</script>"; 
+        window.location.href = 'http://jamesdeancaldwell.github.io/html/contact.html#form-copy';</script>"; 
         exit;
         }
             }
@@ -56,7 +56,7 @@ if(isset($_POST['email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     echo "<script type=\"text/javascript\">window.alert('Thank you, your message has been successfully sent.');
-    window.location.href = '../index.php';</script>";
+    window.location.href = 'http://jamesdeancaldwell.github.io/index.php';</script>";
   }
 ?>
 
